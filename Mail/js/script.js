@@ -7,7 +7,7 @@ const emailList = ["marco@gmail.com" ,"marco1@gmail.com" , "marco2@gmail.com" ,"
 
 console.log(userEmail)
 
-if (emailList.includes(userEmail)){
+if (emailList.includes(userEmail.toLowerCase().trim())){
     console.log("You can login")
 } else {
     console.log("Go away from me!")
